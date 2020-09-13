@@ -1,5 +1,5 @@
 provider "rundeck" {
-  url         = var.rundeck_token
+  url         = "rundeck_url"
   api_version = "34"
   auth_token  = "auth-token-here"
 }
